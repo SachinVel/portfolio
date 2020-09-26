@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.576adbe9.chunk.css",
-    "main.js": "/portfolio/static/js/main.74a705e7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.74a705e7.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4a5aedbd.chunk.css",
+    "main.js": "/portfolio/static/js/main.ab19de59.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ab19de59.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.60dad8f2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.60dad8f2.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/portfolio/static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.2c367ddb.chunk.js": "/portfolio/static/js/2.2c367ddb.chunk.js",
-    "static/js/2.2c367ddb.chunk.js.map": "/portfolio/static/js/2.2c367ddb.chunk.js.map",
+    "static/js/2.f68013a8.chunk.js": "/portfolio/static/js/2.f68013a8.chunk.js",
+    "static/js/2.f68013a8.chunk.js.map": "/portfolio/static/js/2.f68013a8.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c003d5e244223c4b8471fc87131f903b.js": "/portfolio/precache-manifest.c003d5e244223c4b8471fc87131f903b.js",
+    "precache-manifest.80d62e0eafef476d11f98b826992f0ec.js": "/portfolio/precache-manifest.80d62e0eafef476d11f98b826992f0ec.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/portfolio/static/css/2.ac1ab58b.chunk.css.map",
-    "static/css/main.576adbe9.chunk.css.map": "/portfolio/static/css/main.576adbe9.chunk.css.map",
-    "static/js/2.2c367ddb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2c367ddb.chunk.js.LICENSE.txt",
+    "static/css/main.4a5aedbd.chunk.css.map": "/portfolio/static/css/main.4a5aedbd.chunk.css.map",
+    "static/js/2.f68013a8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f68013a8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/NUS-logo.jpg": "/portfolio/static/media/NUS-logo.5e3227c6.jpg",
+    "static/media/VN-logo.jpeg": "/portfolio/static/media/VN-logo.3aa60255.jpeg",
     "static/media/face-image.png": "/portfolio/static/media/face-image.570c230d.png",
+    "static/media/github.svg": "/portfolio/static/media/github.76d344f0.svg",
+    "static/media/kumaraguru-logo.jpg": "/portfolio/static/media/kumaraguru-logo.e124c9ce.jpg",
     "static/media/home.css": "/portfolio/static/media/njnaruto.73fedd91.ttf",
-    "static/media/stackoverflow.png": "/portfolio/static/media/stackoverflow.5233a552.png"
+    "static/media/zoho-logo.png": "/portfolio/static/media/zoho-logo.455839b7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.60dad8f2.js",
     "static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.2c367ddb.chunk.js",
-    "static/css/main.576adbe9.chunk.css",
-    "static/js/main.74a705e7.chunk.js"
+    "static/js/2.f68013a8.chunk.js",
+    "static/css/main.4a5aedbd.chunk.css",
+    "static/js/main.ab19de59.chunk.js"
   ]
 }
