@@ -1,13 +1,124 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+body{
+    margin : 0px;
+    background-color : #dddddd;
+    color: #333333;
+}
+html, body, #root{
+    height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+    font-family: Montserrat;   
+    box-sizing: border-box;
 }
+.title{
+    display: inline-block;
+    padding-left: 48px;
+    font-size: 50px;
+    padding-top: 16px;
+    height: 100%;
+    width: 344px;
+    text-align: left;
+    color: #ff7700;
+    margin: 0px;
+}
+header{
+    background-color: #333333;
+    display: inline-block;
+    width: 100%;
+    height : 100px;
+    color : #dddddd;
+    border-bottom : 10px solid #dddddd;
+}
+
+.menu{
+    display: inline-block;
+    padding: 0px 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    font-size: 15px;
+    right: 100px;
+    width: 125px;
+    background-color: #484848;
+}
+.menu__option{
+    display: inline-block;
+    padding: 40px 0px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    list-style-type: none;
+}
+
+.menu__option:hover{
+    background-color: white;
+    color: #484848;
+}
+
+.main-content{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    background: #dddddd;
+    height: fit-content;
+    min-height: 100%;
+}
+.tab{
+    margin: 0px 15%;
+    padding: 10px 0px;
+    text-align: center;
+}
+.title{
+    font-size: 35px;
+    text-align: center;
+    width: 70%;
+    padding: 15px 0px;
+    margin: 10px 15%;
+    color: #676767;
+    border-bottom: 1px solid #676767;
+}
+.secondary-title{
+    margin-top: 11px;
+    font-size: 23px;
+    color: #696868;
+}
+.fixed{
+    top: 50px;
+    position: fixed;
+}
+
+.yellow-background{
+    background-color: #e9c46a;
+}
+.red-background{
+    background-color: #62b6cb;
+}
+.green-background{
+    background-color: #52b788;
+}
+.darkblue-background{
+    background-color: #adb5bd;
+}
+.purple-background{
+    background-color: #f4a261;
+}
+@media only screen and (max-width:1250px){
+    .tab{
+        margin : 0px 15% 0px 0px;
+    }
+}
+@media only screen and (max-width:900px){
+    .menu{
+        display: none;
+    }
+}
+
+

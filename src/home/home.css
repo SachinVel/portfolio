@@ -1,0 +1,123 @@
+@font-face{
+    font-family: narutoFont;
+    src : url("../fonts/njnaruto.ttf");
+}
+
+#home-tab{
+    width: 100%;
+    height: 100%;
+    background: url(../images/naruto-minimal-wallpaper.png) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+    text-align: center;
+}
+.home-title{
+    display: inline-block;
+    width: 100%;
+    min-width: 300px;
+    font-family: narutoFont;
+
+}
+#home-title-container{
+    display: inline-block;
+    width: 100%;
+    top: 50%;
+    height : 150px;
+    margin-top: -75px;
+    left: 0px;
+    z-index: 3;
+    position: absolute;
+}
+.home-screen-filter{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #e76f517a;
+    z-index: 2;
+}
+.scroll-down-containter{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin: -100px 0px 0px -100px;
+    top: 100%;
+    z-index: 3;
+    left: 50%;
+    text-align: center;
+}
+.chevron {
+  position: absolute;
+  width: 28px;
+  display: inline-block;
+  margin-left: -14px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+.scroll-down-text {
+    display: inline-block;
+    margin-top: 75px;
+    position: absolute;
+    margin-left: -42px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
