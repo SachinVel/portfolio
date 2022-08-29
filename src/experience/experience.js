@@ -7,6 +7,7 @@ import kumaraguruIcon from '../images/kumaraguru-logo.jpg';
 import internshipIcon from '../images/internship-logo.png';
 import NUSLogo from '../images/NUS-logo.jpg';
 import VNLogo from '../images/VN-logo.jpeg';
+import umcpLogo from '../images/umcp-logo.png';
 
 
 
@@ -19,8 +20,19 @@ class Experience extends Component{
                     <div className="secondary-title">"The only source of knowledge is experience."</div>
                 </div>
                 <VerticalTimeline>
+                <VerticalTimelineElement
+                        date="Aug 2022 - May 2024"
+                        icon={<img src={umcpLogo} width="40" height="30"/>}
+                        iconStyle={{ background: 'rgb(236 236 236)', color: '#fff', paddingTop: "18px", }}
+                    >
+                        <h3 className="header-primary">Professional MEng, Software Engineering</h3>
+                        <h4 className="header-secondary">University of Maryland, College Park</h4>
+                        <div className="experience-description">
+                            I'm yet to explore this new chapter
+                        </div>
+                    </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        date="Jul 2020 - present"
+                        date="Jul 2020 - Jun 2022"
                         icon={<img src={zohoIcon} width="40" height="20"/>}
                         iconStyle={{ background: 'rgb(236 236 236)', color: '#fff', paddingTop: "18px", }}
                     >
