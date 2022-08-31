@@ -19,7 +19,7 @@ class About extends Component{
                         </div>
                         <div className="basic-info__unit">
                             <div className="basic-info__name">Age</div>
-                            <div className="basic-info__val">22</div>
+                            <div className="basic-info__val">24</div>
                         </div>
                         <div className="basic-info__unit">
                             <div className="basic-info__name">Email ID</div>
@@ -27,13 +27,12 @@ class About extends Component{
                         </div>
                         <div className="basic-info__unit">
                             <div className="basic-info__name">Location</div>
-                            <div className="basic-info__val">Chennai, Tamil Nadu, India.</div>
+                            <div className="basic-info__val">Maryland, USA.</div>
                         </div>
                     </div>
                 </div>
                 <div className="story-container">
-                    I'm a allround web developer. The primary languages that i use are java and javascript. I like to learn new things everyday and challenge myself. I like to step out of my comfort zone and expose myself to new chanllenges because that's when my knowledge will grow exponentially.
-                    My goal is to become a java full stack web developer with expertise in java and getting exposed to other parts of web development as well.
+                    I'm a passionate and curious software developer. I like to learn new things everyday and challenge myself. My interests are in data structures and algorithms, problem solving and full stack web development. My current goal is to become T-shaped professional in Java full stack web development.
                 </div>
                 
             </div>
