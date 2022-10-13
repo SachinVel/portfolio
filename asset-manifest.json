@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.862fe775.css",
+    "main.js": "/static/js/main.bad63888.js",
+    "static/media/Milkshake.ttf": "/static/media/Milkshake.991b911e403224e369a7.ttf",
+    "static/media/face-image.png": "/static/media/face-image.86e668b458910ad56bf0.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/umcp-logo.png": "/static/media/umcp-logo.91f36bf89eb372de1f28.png",
+    "static/media/NUS-logo.jpg": "/static/media/NUS-logo.54827359e7ff0c07c320.jpg",
+    "static/media/kumaraguru-logo.jpg": "/static/media/kumaraguru-logo.ed7c82428e81631ef620.jpg",
+    "static/media/zoho-logo.png": "/static/media/zoho-logo.43e6c119c73d7f192325.png",
+    "static/media/naruto-minimal-wallpaper.png": "/static/media/naruto-minimal-wallpaper.47d49e4be9861d139968.png",
+    "static/media/VN-logo.jpeg": "/static/media/VN-logo.e45ea4ef6e5ccbc70e1d.jpeg",
+    "static/media/github.svg": "/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
+    "index.html": "/index.html",
+    "main.862fe775.css.map": "/static/css/main.862fe775.css.map",
+    "main.bad63888.js.map": "/static/js/main.bad63888.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.862fe775.css",
+    "static/js/main.bad63888.js"
+  ]
+}
