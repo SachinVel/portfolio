@@ -1,33 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9be84be2.chunk.css",
-    "main.js": "/portfolio/static/js/main.5e2ba234.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5e2ba234.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.60dad8f2.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.60dad8f2.js.map",
-    "static/css/2.ac1ab58b.chunk.css": "/portfolio/static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.f68013a8.chunk.js": "/portfolio/static/js/2.f68013a8.chunk.js",
-    "static/js/2.f68013a8.chunk.js.map": "/portfolio/static/js/2.f68013a8.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.edb7489b5b04c39073d8802f4ab5698e.js": "/portfolio/precache-manifest.edb7489b5b04c39073d8802f4ab5698e.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.ac1ab58b.chunk.css.map": "/portfolio/static/css/2.ac1ab58b.chunk.css.map",
-    "static/css/main.9be84be2.chunk.css.map": "/portfolio/static/css/main.9be84be2.chunk.css.map",
-    "static/js/2.f68013a8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f68013a8.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/NUS-logo.jpg": "/portfolio/static/media/NUS-logo.5e3227c6.jpg",
-    "static/media/VN-logo.jpeg": "/portfolio/static/media/VN-logo.3aa60255.jpeg",
-    "static/media/face-image.png": "/portfolio/static/media/face-image.570c230d.png",
-    "static/media/github.svg": "/portfolio/static/media/github.76d344f0.svg",
-    "static/media/kumaraguru-logo.jpg": "/portfolio/static/media/kumaraguru-logo.e124c9ce.jpg",
-    "static/media/home.css": "/portfolio/static/media/njnaruto.73fedd91.ttf",
-    "static/media/zoho-logo.png": "/portfolio/static/media/zoho-logo.455839b7.png"
+    "main.css": "/static/css/main.862fe775.css",
+    "main.js": "/static/js/main.7652fdf4.js",
+    "static/media/Milkshake.ttf": "/static/media/Milkshake.991b911e403224e369a7.ttf",
+    "static/media/face-image.png": "/static/media/face-image.86e668b458910ad56bf0.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/umcp-logo.png": "/static/media/umcp-logo.91f36bf89eb372de1f28.png",
+    "static/media/NUS-logo.jpg": "/static/media/NUS-logo.54827359e7ff0c07c320.jpg",
+    "static/media/kumaraguru-logo.jpg": "/static/media/kumaraguru-logo.ed7c82428e81631ef620.jpg",
+    "static/media/zoho-logo.png": "/static/media/zoho-logo.43e6c119c73d7f192325.png",
+    "static/media/naruto-minimal-wallpaper.png": "/static/media/naruto-minimal-wallpaper.47d49e4be9861d139968.png",
+    "static/media/VN-logo.jpeg": "/static/media/VN-logo.e45ea4ef6e5ccbc70e1d.jpeg",
+    "static/media/github.svg": "/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
+    "index.html": "/index.html",
+    "main.862fe775.css.map": "/static/css/main.862fe775.css.map",
+    "main.7652fdf4.js.map": "/static/js/main.7652fdf4.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.60dad8f2.js",
-    "static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.f68013a8.chunk.js",
-    "static/css/main.9be84be2.chunk.css",
-    "static/js/main.5e2ba234.chunk.js"
+    "static/css/main.862fe775.css",
+    "static/js/main.7652fdf4.js"
   ]
 }
