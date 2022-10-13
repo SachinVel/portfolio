@@ -1,6 +1,6 @@
 @font-face{
     font-family: narutoFont;
-    src : url("../fonts/njnaruto.ttf");
+    src : url("../fonts/Milkshake.ttf");
 }
 
 #home-tab{
@@ -17,7 +17,15 @@
     width: 100%;
     min-width: 300px;
     font-family: narutoFont;
+    font-size: 50px;
 
+}
+.home-title-subtext{
+    display: inline-block;
+    font-size: 30px;
+    width: 100%;
+    min-width: 300px;
+    font-family: narutoFont;
 }
 #home-title-container{
     display: inline-block;
@@ -40,6 +48,7 @@
     position: absolute;
     width: 200px;
     height: 100px;
+    cursor: pointer;
     margin: -100px 0px 0px -100px;
     top: 100%;
     z-index: 3;

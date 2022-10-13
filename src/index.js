@@ -50,7 +50,6 @@ class MenuOption extends Component{
     onClick = function(event){
         let tabId = event.target.getAttribute("data-id");
         let tab = document.getElementById(tabId);
-        console.log(tab.offsetTop + tab.parentElement.offsetTop);
         window.scrollTo({
             top: tab.offsetTop + tab.parentElement.parentElement.offsetTop,
             left: 0,
@@ -72,6 +71,9 @@ class MainContent extends Component{
                 <div className="yellow-background">
                     <About />
                 </div>
+                <div className="darkblue-background">
+                    <Profiles />
+                </div>
                 <div className="green-background">
                     <Experience />
                 </div>
@@ -81,10 +83,6 @@ class MainContent extends Component{
                 <div className="red-background">
                     <Projects/>
                 </div>
-                <div className="darkblue-background">
-                    <Profiles />
-                </div>
-                
             </section>
         );
     }
