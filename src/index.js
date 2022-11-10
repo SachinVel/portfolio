@@ -7,7 +7,6 @@ import Home from "./home/home.js";
 import Experience from "./experience/experience.js";
 import About from "./about/about.js";
 import Projects from "./projects/projects.js";
-import Profiles from "./profiles/profiles.js";
 import Skills from "./skills/skills.js";
 
 
@@ -40,7 +39,6 @@ class Menu extends Component{
                 <MenuOption id="experiences" name="Experiences" />
                 <MenuOption id="skills" name="Skills" />
                 <MenuOption id="projects" name="Projects" />
-                <MenuOption id="profiles" name="Profiles" />
             </ul>
         );
     }
@@ -66,14 +64,15 @@ class MenuOption extends Component{
 class MainContent extends Component{
     render(){
         return (
+            
             <section className="main-content" id="main-content">
                 <Menu />
                 <div className="yellow-background">
                     <About />
-                </div>
-                <div className="darkblue-background">
+                </div>    
+                {/* <div className="darkblue-background">
                     <Profiles />
-                </div>
+                </div> */}
                 <div className="green-background">
                     <Experience />
                 </div>
@@ -91,7 +90,7 @@ class MainOutline extends Component{
     render(){
         return (
             <Fragment>
-                <Home />
+                <Home/>
                 <MainContent />
             </Fragment>
         );

@@ -4,28 +4,9 @@ import stackoverflowIcon from '../images/stackoverflow.png';
 import hackerrankIcon from '../images/hackerrank.png';
 import linkedinIcon from '../images/linkedin.png';
 import githubIcon from '../images/github.svg';
+import ProfileUnit from './profile-unit.js';
 
 
-
-
-class ProfileUnit extends Component{
-
-    handleClick(event){
-        window.open(this.props.link);
-    }
-
-    render(){
-        return(
-            <div className={"profiles-unit "+ this.props.className}>
-                <div className="profiles-unit__wrapper" onClick={this.handleClick.bind(this)}>
-                    <img src={this.props.icon} height="30px" width="30px" className="profiles-icon"></img>
-                    <span className="profiles-unit__text">{this.props.displayName}</span>
-                    <span className="profiles-unit__sub-text">{this.props.subtext}</span>
-                </div>
-            </div>
-        )
-    }
-}
 class Profiles extends Component{
     render(){
         return(
